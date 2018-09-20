@@ -81,7 +81,7 @@
     
     UIView *customView = [[UIView alloc] init];
     float cancelWidth=0;
-    if (cancleTitle) {
+    if (cancleTitle&&cancleTitle.length>0) {
         cancelWidth=popViewWidth/2;
         CNPPopupButton *cancelButton = [[CNPPopupButton alloc] initWithFrame:CGRectMake(0, 0, popViewWidth/2+1, buttonHeight)];
         [cancelButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
