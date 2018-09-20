@@ -19,7 +19,9 @@
                            cancelTitle:(NSString*)cancleTitle
                            commitTitle:(NSString*)commitTitle
                            commitBlock:(void(^)(void))commitBlock{
-    return [self show:title detailTitle:detailTitle cancelTitle:cancleTitle commitTitle:commitTitle cancelBlock:nil commitBlock:commitBlock];
+    return [self show:title detailTitle:detailTitle cancelTitle:cancleTitle commitTitle:commitTitle cancelBlock:^{
+        
+    } commitBlock:commitBlock];
 }
 +(CNPPopupController *)show:(NSString*)title
                            detailTitle:(NSString*)detailTitle
