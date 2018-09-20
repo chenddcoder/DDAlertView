@@ -7,26 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CNPPopupController.h"
+#import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DDAlertView : NSObject
-+(CNPPopupController *)show:(NSString*)title
++(id)show:(NSString*)title
                 detailTitle:(NSString*)detailTitle
                 commitTitle:(NSString*)commitTitle
                 commitBlock:(void(^)(void))commitBlock;
-+(CNPPopupController *)show:(NSString*)title
++(id)show:(NSString*)title
                 detailTitle:(NSString*)detailTitle
                 cancelTitle:(NSString*)cancleTitle
                 commitTitle:(NSString*)commitTitle
                 commitBlock:(void(^)(void))commitBlock;
-+(CNPPopupController *)show:(NSString*)title
++(id)show:(NSString*)title
                 detailTitle:(NSString*)detailTitle
                 cancelTitle:(NSString*)cancleTitle
                 commitTitle:(NSString*)commitTitle
                 cancelBlock:(void(^)(void))cancelBlock
                 commitBlock:(void(^)(void))commitBlock;
-+(CNPPopupController *)show:(NSString*)title
++(id)show:(NSString*)title
                 detailTitle:(NSString*)detailTitle
                 cancelTitle:(NSString*)cancleTitle
                 cancelColor:(UIColor*)cancleColor

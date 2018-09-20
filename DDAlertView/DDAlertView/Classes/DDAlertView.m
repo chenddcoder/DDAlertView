@@ -7,6 +7,7 @@
 //
 
 #import "DDAlertView.h"
+#import "CNPPopupController.h"
 @implementation DDAlertView
 +(CNPPopupController *)show:(NSString*)title
                            detailTitle:(NSString*)detailTitle
