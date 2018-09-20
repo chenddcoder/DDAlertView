@@ -1,0 +1,16 @@
+PODS:
+  - CNPPopupController (0.3.3)
+
+DEPENDENCIES:
+  - CNPPopupController
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CNPPopupController
+
+SPEC CHECKSUMS:
+  CNPPopupController: 59b06290762f68beab5fb0bbfa87eb4dcbefb7de
+
+PODFILE CHECKSUM: 728b10c7679ee878d351160a5eeaf240fa3d1ec5
+
+COCOAPODS: 1.5.0

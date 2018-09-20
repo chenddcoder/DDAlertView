@@ -1,0 +1,6 @@
+project 'DDAlertView.xcodeproj'
+platform:ios,'8.0'
+target 'DDAlertView' do
+pod 'CNPPopupController'
+end
+
